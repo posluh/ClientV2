@@ -1,0 +1,77 @@
+.root {
+    -fx-base: #42bd81; /* основной цвет */
+    -fx-accent: #ffffff; /* дополнительный цвет */
+    -fx-default-button: #ffffff; /* цвет кнопок по умолчанию */
+    -fx-focus-color: #ffffff; /* цвет фокуса */
+}
+
+.button {
+    -fx-background-color: #42bd81;
+    -fx-background-radius: 5;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-border-color: #42bd81;
+    -fx-border-width: 2;
+    -fx-padding: 8 16;
+    -fx-transition-duration: 0.3s;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #42bd81, #2b8e68);
+    -fx-border-color: linear-gradient(to bottom, #42bd81, #2b8e68);
+}
+
+
+.tab {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+}
+
+.tab-pane {
+    -fx-tab-min-height: 32px;
+}
+
+.tab:selected {
+    -fx-background-color: #42bd81;
+}
+
+.split-pane {
+    -fx-divider-position: 0.5;
+    -fx-background-color: #f3f3f3;
+}
+
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-table-cell-border-color: #f3f3f3;
+}
+
+.table-view .column-header {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #f3f3f3;
+}
+
+.table-view .column-header-background .label {
+    -fx-text-fill: #000000;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #2B8E68FF;
+}
+
+.table-row-cell {
+    -fx-background-color: #ffffff;
+    -fx-table-cell-border-color: #f3f3f3;
+}
+
+.grid-pane {
+    -fx-background-color: #ffffff;
+}
+
+.anchor-pane {
+    -fx-background-color: #ffffff;
+}
